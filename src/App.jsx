@@ -7,7 +7,7 @@ import ProductDetailPage from "./pages/ProductDetailPage"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/e-commerce-goodclothes">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
